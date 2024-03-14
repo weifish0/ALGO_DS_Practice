@@ -1,3 +1,6 @@
+// Q: https://neoj.sprout.tw/problem/36/
+// concept: stack queue
+
 #include <bits/stdc++.h>
 using namespace std;
 

@@ -1,3 +1,6 @@
+// Q: https://neoj.sprout.tw/problem/37/
+// concept: linked list
+
 #include <bits/stdc++.h>
 using namespace std;
 

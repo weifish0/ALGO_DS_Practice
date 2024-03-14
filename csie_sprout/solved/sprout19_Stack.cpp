@@ -1,3 +1,6 @@
+// Q: https://neoj.sprout.tw/problem/19/
+// concept: stack
+
 #include <bits/stdc++.h>
 using namespace std;
 

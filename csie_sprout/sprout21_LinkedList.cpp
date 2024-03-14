@@ -1,6 +1,6 @@
 // Q: https://neoj.sprout.tw/problem/21/
 // concept: linked list
-// data: 2024/03/13
+// date: 2024/03/13
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -19,6 +19,8 @@ int main() {
     head->next = NULL;
     
     Node *current = head;
+
+    // 建立linked list
     for(int player_num=2;player_num<=n;player_num++){
         current->next = new Node;
         current = current->next;
@@ -31,9 +33,10 @@ int main() {
         int event, player;
         cin >> event >> player;
         
-        // 刪除Node 
         if(event==0){
             Node *temp;
+            
+            // 處理刪除Node是head的狀況 
             if(head->data == player){
                 temp = head;
                 head = head->next;
@@ -41,6 +44,7 @@ int main() {
                 continue;
             }
             
+            // 刪除Node
             current = head;
             while(true){
                 // current - temp 
